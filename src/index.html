@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BridgeLearn | Your Knowledge Path</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-bar"></div>
+            <p>Building your bridge...</p>
+
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">BridgeLearn 🚀</div>
+            <ul class="nav-links">
+                <li><a href="#bridges">Bridges</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+  <main>
+    <section class="hero">
+        <h1>Learn Without the Gaps.</h1>
+        <p>We simplify complex subjects into manageable "spans" for every student.</p>
+        <a href="#bridges" class="cta-main">Start Your Journey</a>
+    </section>
+    <section id="bridges" class="bridge-grid">
+        <h2 class="section-title">Available Bridges</h2>
+        <div class="grid-container">
+            <div class="bridge-card">
+                <span class="icon">📐</span>
+                <h3>Mathematics</h3>
+                <p>Calculus, Algebra, and Statistics made simple.</p>
+                <button class="card-btn">Explore</button>
+            </div>
+            <div class="bridge-card">
+                <span class="icon">🧪</span>
+                <h3>Science</h3>
+                <p>Physics and Chemistry broken down into steps.</p>
+                <button class="card-btn">Explore</button>
+            </div>
+            <div class="bridge-card">
+                <span class="icon">🖥️</span>
+                <h3>Technology</h3>
+                <p>Master coding logic and digital systems.</p>
+                <button class="card-btn">Explore</button>
+            </div>
+        </div>
+    </section>
+    <section id="resources" class="resources">
+        <h2>Community Library 📚</h2>
+        <p>Download peer-reviewed notes and study guides.</p>
+        <button class="secondary-btn">Open Library</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 BridgeLearn. Bridging the gap in education. ✨</p>
+  </footer>
+  <script>
+    window.addEventListener('load', () =>{
+        const loader = document.getElementById('loader');
+        setTimeout (() => {
+            loader.style.opacity = '0' ;
+            setTimeout (() => loader.style.display = 'none', 500);
+        }, 1500); // 1.5 seconds loading time
+    });
+  </script>
+</body>
+</html>
