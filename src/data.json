@@ -1,0 +1,54 @@
+{
+  "mathematics": {
+    "title": "Mathematics Bridge",
+    "description": "Mastering Calculus through simple spans.",
+    "modules": [
+      {
+        "step": 1,
+        "topic": "The Concept of Limits",
+        "content": "Imagine getting closer and closer to a door but never touching it. That's a limit!"
+      },
+      {
+        "step": 2,
+        "topic": "Derivatives",
+        "content": "A derivative is just a fancy word for 'rate of change'—like how fast a car accelerates."
+      }
+    ],
+    "quiz": {
+      "question": "What is a 'derivative' in simple terms?",
+      "options": ["A rate of change", "A fixed number", "The end of a line"],
+      "answer": "A rate of change"
+    }
+  },
+  "science": {
+    "title": "Science Bridge",
+    "description": "Simplifying Physics and Chemistry through visual steps.",
+    "modules": [
+      {
+        "step": 1,
+        "topic": "Newton's First Law",
+        "content": "An object at rest stays at rest unless a force acts on it. Like a ball on the grass!"
+      }
+    ],
+    "quiz": {
+      "question": "According to Newton's First Law, what makes an object at rest move?",
+      "options": ["Gravity only", "A force acting on it", "It moves by itself"],
+      "answer": "A force acting on it"
+    }
+  },
+  "technology": {
+    "title": "Technology Bridge",
+    "modules": [
+      {
+        "step": 1,
+        "topic": "What is an Algorithm?",
+        "content": "An algorithm is just a recipe for a computer. Follow the steps, get the result!"
+      }
+    ],
+    "quiz": {
+      "question": "What is a computer algorithm compared to in our lesson?",
+      "options": ["A car engine", "A cooking recipe", "A lightning bolt"],
+      "answer": "A cooking recipe"
+    }
+  }
+}
